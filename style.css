@@ -256,7 +256,7 @@ footer {
     padding-left: 0;
 }
 
-@media (min-width:385px) {
+@media (min-width:900px) {
 
     header {
         display: flex;
