@@ -1,0 +1,475 @@
+*{
+    margin: 0 auto;
+}
+
+body {
+    background-color:#f8e9d2;
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.empresa {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+    color:#48496A;
+}
+.barra-navegacion{
+    display: none;
+}
+.boton1 {
+    margin-right: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #48496A;
+    border: 2px solid #48496A;
+    background-color: #f8e9d2;
+    border-radius: 5px;
+}
+
+.presentacion {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.gatoportada{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    left: -90px;
+    padding-bottom: 40px;
+}
+.perroportada {
+    height: 180px;
+    width: 220px;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+.titulo-presentacion {
+    width: 70%;
+    font-family: 'Lobster', cursive;
+    color: #48496A;
+    font-size: 30px;
+}
+.bajo-presentacion{
+    width: 70%;
+    color:#48496A;
+    font-size: 14px;
+    padding: 20px;
+}
+.boton2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #ffffff;
+    border: 2px solid #FF5B2E;
+    background-color: #FF5B2E;
+    border-radius: 5px;
+}
+
+.llamadas {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.testimonios {
+    background-image: linear-gradient(#FF5B2E, #FF9D2F);
+    color:#ffffff;
+    text-align: center;
+}
+.d-testimonios {
+    padding: 25px 0;
+}
+.t-titulo{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.t-numero {
+    font-size: 35px;
+}
+.f-testimonios {
+    background-color: #009F97;
+    padding: 20px;
+    border: 4px #f8e9d2 solid;
+    border-radius: 15px 15px 0 0;
+}
+
+.servicios {
+    padding: 25px 0;
+    text-align: center;
+}
+.l-servicios {
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.l-servicios > li {
+    list-style: none;
+    padding: 5px 5px;
+    display: flex;
+    align-items: stretch;
+}
+.l-servicios >li > img {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+.imagen-servicios {
+    object-fit:cover;
+}
+.imagen-servicios > img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    clip-path: ellipse(40% 50% at 50% 50%);
+
+}
+.s-contactenos {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.mas-servicios{
+    background-color: #fcdcb9;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    background-color:#ffffff;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.card > img {
+    background-color: #009F97;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.card-color {
+    background-color: #FF5B2E;
+}
+
+.servicios2 {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.equipo {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7c894;
+    justify-content: flex-start;
+    width: 250px;
+    height: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.card2 > img {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    top: -25px;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.card3 > img {
+    width: 160px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.card3-bottom {
+    padding: 0 25px;
+    text-align: justify;
+}
+.card3-bottom > h2 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.links > div {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.links-li {
+    list-style: none;
+    padding-left: 0;
+}
+
+@media (min-width:385px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .empresa {
+        font-family: 'Lobster', cursive;
+        font-weight: 700;
+        font-size: 45px;
+        margin-left: 50px;
+        color:#48496A;
+    }
+    .barra-navegacion{
+        display:contents;
+        margin: 0;
+     }
+
+    .items-barra {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+    }
+
+    .items-barra > li {
+        list-style: none;
+        color:#48496A;
+    }
+   
+    .boton1 {
+        margin-right: 50px;
+    }
+
+    .presentacion {
+        text-align: center;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .gatoportada{
+        height: 450px;
+        width: 500px;
+        position:relative;
+        top: 160px;
+        left: -80px;
+    }
+    .perroportada {
+        height: 260px;
+        width: 320px;
+        position: relative;
+        top: -100px;
+        left: 180px; 
+    }
+    .titulo-presentacion {
+        font-size: 45px;
+    }
+    .bajo-presentacion{
+        font-size: 18px;
+    }
+    .boton2{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 10px 15px;
+        color: #ffffff;
+        border: 2px solid #FF5B2E;
+        background-color: #FF5B2E;
+        border-radius: 5px;
+    }
+
+    .testimonios {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        border-radius: 25px 25px 0 0;
+  
+    }
+    .d-testimonios {
+        margin: 0 50px;
+  
+    }
+
+    .f-testimonios {
+        width: 25%;
+        padding: 20px;
+        margin-right: 0;
+    }
+
+    .t-titulo{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .t-numero {
+        font-size: 35px;
+    }
+    
+
+    .servicios {
+        padding: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .l-servicios {
+        padding: 25px 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .l-servicios > li {
+        margin: 0;
+    }
+    .l-servicios >li > img {
+        width: 20px;
+        height: 20px;
+        padding-right: 5px;
+    }
+    .imagen-servicios {
+        width: 50%;
+    }
+    .s-contactenos {
+        width: 70%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .servicios2 {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .equipo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* .card2 {
+        display: flex;
+        flex-direction: column;
+        background-color: #f7c894;
+        justify-content: flex-start;
+        width: 250px;
+        height: 270px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+    }
+
+    .card2 > img {
+        width: 150px;
+        height: 200px;
+        position: relative;
+        top: -25px;
+    }
+    .blog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        justify-content: flex-start;
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+    }
+
+    .card3 > img {
+        width: 160px;
+        margin-top: 15px;
+        padding: 5px;
+    }
+
+    .card3-bottom {
+        padding: 0 25px;
+        text-align: justify;
+    }
+    .card3-bottom > h2 {
+        padding-top: 5px;
+        text-align: center;
+    } */
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        padding: 25px 20px;
+    }
+
+    .foot-left{
+        width: 40%;
+        padding-left: 20px;
+    }
+    .links {
+        width: 60%;
+        padding-top: 0;
+        margin-left: 55px;
+    }
+
+    .links > div {
+        text-align: left;
+        margin-left: 20px;
+    }
+/* 
+    .links-li {
+        list-style: none;
+        padding-left: 25px;
+    } */
+
+}
