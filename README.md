@@ -12,5 +12,4 @@ Versión Mobile
 
 ![version mobile](img/mobile.png)
 
-Versión live
 [version live](https://pet-care-sand.vercel.app/)
